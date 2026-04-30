@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Contactez-nous</h1>
+    <p>
+      Un probleme, une question, envie de nous envoyer un message d'amour?
+      N'hesitez pas a utiliser pour prendre contact avec nous!
+    </p>
+    <form action="" method="post">
+      <div>
+          <label for="">Votre Nom <br>
+        <input type="text" placeholder="Martin" size="70px"/>
+      </label>
+      </div>
+      
+      <div>
+          <label for="">Votre e-mail <br/>
+               <input type="email" placeholder="amanibiringanine1997@gmail.com" size="70px"/>
+          </label>
+      </div> <br>
+       
+      <div>
+            <label for="Subject" required></label>
+            <select name="subject" id="subject" required>
+            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+            <option value="probleme-compte">probleme avec mon probleme-compte</option>
+            <option value="question-produit">Qustion a propos d'un produit</option>
+            <option value="suivi-commande">Suivi de ma commande</option>
+            <option value="autre">Autre...</option>
+            </select>
+            
+      </div>
+
+      <div>
+        <label for="">Votre message</label><br>
+        <textarea name="" id="" placeholder="Bonjour, je vous contacte car..." ></textarea>
+
+      </div>
+
+      <div>
+        <button>Envoyez mon message</button>
+      </div>
+
+    </form>
+  </body>
+</html>
